@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hôtel du Doeru — Hôtel 4 étoiles à Brazzaville, République du Congo. Chambres, restaurant, piscine, conférences et réservation WhatsApp.">
+  <meta name="theme-color" content="#0b2f35">
+  <title>Hôtel du Doeru | Hôtel 4 étoiles à Brazzaville</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-loader" id="pageLoader" aria-hidden="true">
+  <div class="loader-mark">HD</div>
+  <div class="loader-progress"><span></span></div>
+  <p>HÔTEL DU DOERU</p>
+</div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="noise-layer" aria-hidden="true"></div>
+<div class="ambient-orb ambient-orb-a" aria-hidden="true"></div>
+<div class="ambient-orb ambient-orb-b" aria-hidden="true"></div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#accueil" aria-label="Hôtel du Doeru - Accueil">
+        <span class="brand-mark">HD</span>
+        <span>
+          <strong>HÔTEL DU DOERU</strong>
+          <small>★★★★ • BRAZZAVILLE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#accueil">Accueil</a>
+        <a href="#chambres">Chambres</a>
+        <a href="#restaurant">Restaurant</a>
+        <a href="#services">Services</a>
+        <a href="#conferences">Conférences</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#reservation">Réserver</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil" aria-label="Présentation de l'hôtel">
+      <div class="hero-slider" id="heroSlider">
+        <div class="hero-slide is-active" style="background-image:url('Images/hero/banner1.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('Images/hero/banner2.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('Images/hero/banner3.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('Images/hero/banner4.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('Images/hero/banner5.jpg')"></div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-light-sweep" aria-hidden="true"></div>
+<div class="container hero-content reveal">
+        <p class="eyebrow">VOTRE CONFORT, NOTRE PRIORITÉ</p>
+        <h1>Une adresse élégante au cœur de <span>Brazzaville</span></h1>
+        <p class="hero-text">
+          Hôtel 4 étoiles • Wi-Fi gratuit • Réception 24h/24 • Restaurant • Piscine • Conférences
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#reservation">Réserver mon séjour</a>
+          <a class="btn btn-outline" href="#chambres">Découvrir l'hôtel</a>
+        </div>
+      </div>
+
+      <div class="slider-controls">
+        <button id="prevSlide" aria-label="Image précédente">←</button>
+        <div class="slider-dots" id="sliderDots"></div>
+        <button id="nextSlide" aria-label="Image suivante">→</button>
+      </div>
+
+      <a class="scroll-cue" href="#presentation" aria-label="Descendre">↓</a>
+    </section>
+
+    <section class="section intro-section" id="presentation">
+      <div class="container intro-grid">
+        <div class="intro-copy reveal">
+          <p class="eyebrow">BIENVENUE</p>
+          <h2>Le calme, le service et l’élégance réunis.</h2>
+          <p>
+            L’Hôtel du Doeru est un établissement 4 étoiles fictif situé au 25, Avenue de la Corniche,
+            au centre-ville de Brazzaville. Il accueille voyageurs d’affaires, touristes, familles
+            et événements professionnels dans un environnement moderne et chaleureux.
+          </p>
+          <blockquote>« Votre confort, notre priorité. »</blockquote>
+        </div>
+
+        <div class="stats-card reveal">
+          <div><strong>4★</strong><span>Catégorie</span></div>
+          <div><strong>24/7</strong><span>Réception</span></div>
+          <div><strong>Wi-Fi</strong><span>Gratuit</span></div>
+          <div><strong>14h</strong><span>Check-in</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="chambres">
+<div class="section-number">02</div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">NOS CHAMBRES</p>
+          <h2>Des espaces pensés pour bien dormir</h2>
+          <p>Choisissez le confort qui correspond à votre séjour à Brazzaville.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="product-card reveal">
+            <div class="media-frame">
+              <img src="Images/chambres/standard.jpg" alt="Chambre Standard de l'Hôtel du Doeru" loading="lazy">
+              <span class="price">45 000 FCFA / nuit</span>
+            </div>
+            <div class="card-body">
+              <h3>Chambre Standard</h3>
+              <p>1 lit double • Climatisation • TV écran plat • Wi-Fi • Salle de bain privée • Eau chaude • Petit-déjeuner inclus.</p>
+              <a class="text-link reserve-link" data-room="Chambre Standard" data-price="45 000 FCFA / nuit" href="#reservation">Réserver cette chambre →</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="media-frame">
+              <img src="Images/chambres/deluxe.jpg" alt="Chambre Deluxe de l'Hôtel du Doeru" loading="lazy">
+              <span class="price">65 000 FCFA / nuit</span>
+            </div>
+            <div class="card-body">
+              <h3>Chambre Deluxe</h3>
+              <p>Grand lit double • Vue sur le fleuve • Climatisation • TV • Mini-réfrigérateur • Bureau • Salle de bain moderne • Wi-Fi • Petit-déjeuner inclus.</p>
+              <a class="text-link reserve-link" data-room="Chambre Deluxe" data-price="65 000 FCFA / nuit" href="#reservation">Réserver cette chambre →</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="media-frame">
+              <img src="Images/chambres/junior-suite.jpg" alt="Suite Junior de l'Hôtel du Doeru" loading="lazy">
+              <span class="price">90 000 FCFA / nuit</span>
+            </div>
+            <div class="card-body">
+              <h3>Suite Junior</h3>
+              <p>Chambre spacieuse • Salon privé • Grand lit • Vue panoramique • Mini-bar • Coffre-fort • Baignoire • Petit-déjeuner inclus.</p>
+              <a class="text-link reserve-link" data-room="Suite Junior" data-price="90 000 FCFA / nuit" href="#reservation">Réserver cette suite →</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="media-frame">
+              <img src="Images/chambres/presidentielle.jpg" alt="Suite Présidentielle de l'Hôtel du Doeru" loading="lazy">
+              <span class="price">150 000 FCFA / nuit</span>
+            </div>
+            <div class="card-body">
+              <h3>Suite Présidentielle</h3>
+              <p>Grande chambre • Salon privé • Salle à manger • Terrasse • Vue fleuve • Mini-bar • Coffre-fort • Service en chambre • Petit-déjeuner premium.</p>
+              <a class="text-link reserve-link" data-room="Suite Présidentielle" data-price="150 000 FCFA / nuit" href="#reservation">Réserver cette suite →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="restaurant">
+<div class="section-number">03</div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">LE FLEUVE</p>
+          <h2>Restaurant • Cuisine congolaise, africaine & internationale</h2>
+          <p>Des recettes généreuses, servies dans un cadre élégant.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/poulet-moambe.jpg" alt="Poulet à la moambe" loading="lazy">
+            <div><h3>Poulet à la moambe</h3><span>8 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/poisson-braise.jpg" alt="Poisson braisé" loading="lazy">
+            <div><h3>Poisson braisé</h3><span>10 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/saka-saka.jpg" alt="Saka-saka avec viande" loading="lazy">
+            <div><h3>Saka-saka avec viande</h3><span>7 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/liboke-poisson.jpg" alt="Liboké de poisson" loading="lazy">
+            <div><h3>Liboké de poisson</h3><span>9 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/poulet-braise.jpg" alt="Poulet braisé" loading="lazy">
+            <div><h3>Poulet braisé</h3><span>8 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/fufu-sauce.jpg" alt="Fufu avec sauce" loading="lazy">
+            <div><h3>Fufu avec sauce</h3><span>5 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/spaghetti-bolognaise.jpg" alt="Spaghetti Bolognaise" loading="lazy">
+            <div><h3>Spaghetti Bolognaise</h3><span>7 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/poulet-grille.jpg" alt="Poulet grillé" loading="lazy">
+            <div><h3>Poulet grillé</h3><span>8 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/steak-frites.jpg" alt="Steak avec frites" loading="lazy">
+            <div><h3>Steak avec frites</h3><span>12 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/pizza.jpg" alt="Pizza Margherita" loading="lazy">
+            <div><h3>Pizza Margherita</h3><span>7 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/Hamburger.jpg" alt="Hamburger Royal" loading="lazy">
+            <div><h3>Hamburger Royal</h3><span>8 000 FCFA</span></div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="Images/restaurant/salade-cesar.jpg" alt="Salade César" loading="lazy">
+            <div><h3>Salade César</h3><span>6 000 FCFA</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="petit-dejeuner">
+<div class="section-number">04</div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">LE MATIN</p>
+          <h2>Petit-déjeuner</h2>
+        </div>
+
+        <div class="breakfast-grid">
+          <article class="breakfast-card reveal">
+            <img src="Images/petit-dejeuner/continental.jpg" alt="Petit-déjeuner continental" loading="lazy">
+            <div class="breakfast-content">
+              <div class="card-title-row"><h3>Petit-déjeuner continental</h3><span>6 000 FCFA</span></div>
+              <p>Pain • Beurre • Confiture • Croissant • Jus de fruit • Thé ou café • Omelette</p>
+            </div>
+          </article>
+          <article class="breakfast-card reveal">
+            <img src="Images/petit-dejeuner/complet.jpg" alt="Petit-déjeuner complet" loading="lazy">
+            <div class="breakfast-content">
+              <div class="card-title-row"><h3>Petit-déjeuner complet</h3><span>10 000 FCFA</span></div>
+              <p>Pain • Croissant • Œufs • Jambon • Fromage • Fruits • Yaourt • Jus naturel • Thé ou café</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+<div class="section-number">05</div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">EXPÉRIENCE</p>
+          <h2>Services & équipements</h2>
+          <p>Tout l’essentiel pour profiter d’un séjour confortable.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal"><img src="Images/services/piscine.jpg" alt="Piscine extérieure" loading="lazy"><div><span>🏊</span><h3>Piscine extérieure</h3><p>Détendez-vous dans un espace extérieur agréable.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/restaurant.jpg" alt="Restaurant de l'hôtel" loading="lazy"><div><span>🍽️</span><h3>Restaurant</h3><p>Cuisine congolaise, africaine et internationale.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/cafe-bar.jpg" alt="Café-bar" loading="lazy"><div><span>☕</span><h3>Café-bar</h3><p>Un espace convivial pour boire un verre.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/parking.jpg" alt="Parking sécurisé" loading="lazy"><div><span>🅿️</span><h3>Parking sécurisé</h3><p>Stationnement pratique pour vos véhicules.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/salle-sport.jpg" alt="Salle de sport" loading="lazy"><div><span>🏋️</span><h3>Salle de sport</h3><p>Gardez votre routine pendant votre séjour.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/bien-etre.jpg" alt="Espace bien-être" loading="lazy"><div><span>💆</span><h3>Espace bien-être</h3><p>Un moment de calme et de relaxation.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/Blanchisserie.jpg" alt="Service de blanchisserie" loading="lazy"><div><span>🧺</span><h3>Blanchisserie</h3><p>Un service pratique pour les longs séjours.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/transport.jpg" alt="Service de transport" loading="lazy"><div><span>🚕</span><h3>Transport</h3><p>Facilitez vos déplacements à Brazzaville.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/service-chambre.jpg" alt="Service en chambre" loading="lazy"><div><span>🛎️</span><h3>Service en chambre</h3><p>Confort et discrétion directement dans votre chambre.</p></div></article>
+          <article class="service-card reveal"><img src="Images/services/coffre-fort.jpg" alt="Coffre-fort" loading="lazy"><div><span>🔒</span><h3>Coffre-fort</h3><p>Pour conserver vos objets importants en sécurité.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="conferences">
+<div class="section-number">06</div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">ÉVÉNEMENTS</p>
+          <h2>Salles de conférence & réception</h2>
+          <p>Des espaces adaptés aux réunions, formations, cérémonies et grands événements.</p>
+        </div>
+
+        <div class="conference-grid">
+          <article class="conference-card reveal"><img src="Images/conferences/salle-congo.jpg" alt="Salle Congo - 50 personnes" loading="lazy"><div><h3>Salle Congo</h3><span>Capacité : 50 personnes</span></div></article>
+          <article class="conference-card reveal"><img src="Images/conferences/salle-brazzaville.jpg" alt="Salle Brazzaville - 100 personnes" loading="lazy"><div><h3>Salle Brazzaville</h3><span>Capacité : 100 personnes</span></div></article>
+          <article class="conference-card reveal"><img src="Images/conferences/salle-fleuve.jpg" alt="Grande salle Fleuve - 250 personnes" loading="lazy"><div><h3>Grande salle Fleuve</h3><span>Capacité : 250 personnes</span></div></article>
+        </div>
+
+        <div class="equipment reveal">
+          <strong>Équipements disponibles :</strong>
+          <span>Projecteur</span><span>Écran</span><span>Microphones</span><span>Sonorisation</span><span>Wi-Fi</span><span>Climatisation</span><span>Tables & chaises</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="motion-marquee"><div class="motion-marquee-track">
+<span>HÔTEL DU DOERU</span><b>✦</b><span>BRAZZAVILLE</span><b>✦</b>
+<span>VOTRE CONFORT, NOTRE PRIORITÉ</span><b>✦</b><span>★★★★</span><b>✦</b>
+<span>HÔTEL DU DOERU</span><b>✦</b><span>BRAZZAVILLE</span><b>✦</b>
+</div></div>
+<section class="section reservation-section" id="reservation">
+<div class="section-number">07</div>
+      <div class="container reservation-grid">
+        <div class="reservation-copy reveal">
+          <p class="eyebrow">RÉSERVATION</p>
+          <h2>Réservez directement avec l’hôtel.</h2>
+          <p>
+            Remplissez le formulaire. Un message WhatsApp sera préparé automatiquement avec vos informations.
+            Vous pourrez ensuite l’envoyer à notre équipe pour confirmation.
+          </p>
+          <div class="contact-mini">
+            <p>📞 <strong>+242 06 526 9213</strong></p>
+            <p>✉️ <strong>khanihenoc8@gmail.com</strong></p>
+            <p>🕐 Réception ouverte 24h/24 et 7j/7</p>
+          </div>
+        </div>
+
+        <form class="reservation-form reveal" id="reservationForm">
+          <div class="form-grid">
+            <label>Nom complet
+              <input type="text" id="name" required placeholder="Ex. Jean Dupont">
+            </label>
+            <label>Téléphone
+              <input type="tel" id="phone" required placeholder="Ex. +242 06 ...">
+            </label>
+            <label>Arrivée
+              <input type="date" id="checkin" required>
+            </label>
+            <label>Départ
+              <input type="date" id="checkout" required>
+            </label>
+            <label>Type de chambre
+              <select id="room" required>
+                <option value="">Choisir une chambre</option>
+                <option>Chambre Standard — 45 000 FCFA / nuit</option>
+                <option>Chambre Deluxe — 65 000 FCFA / nuit</option>
+                <option>Suite Junior — 90 000 FCFA / nuit</option>
+                <option>Suite Présidentielle — 150 000 FCFA / nuit</option>
+              </select>
+            </label>
+            <label>Nombre de personnes
+              <input type="number" id="guests" min="1" max="20" value="1" required>
+            </label>
+          </div>
+
+          <label>Message complémentaire
+            <textarea id="message" rows="4" placeholder="Ex. arrivée tardive, lit bébé, demande spéciale..."></textarea>
+          </label>
+
+          <button class="btn btn-primary btn-full" type="submit">📲 Envoyer la demande sur WhatsApp</button>
+          <p class="form-note" id="formNote">Le bouton ouvrira WhatsApp avec un message déjà rempli.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+<div class="section-number">08</div>
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">NOUS TROUVER</p>
+          <h2>Au cœur de Brazzaville</h2>
+          <p>25, Avenue de la Corniche, Centre-ville, Brazzaville, République du Congo</p>
+          <div class="contact-details">
+            <p>📞 <a href="tel:+242065269213">+242 06 526 9213</a></p>
+            <p>✉️ <a href="mailto:khanihenoc8@gmail.com">khanihenoc8@gmail.com</a></p>
+            <p>🌐 www.hotelriviereducongo.cg</p>
+          </div>
+        </div>
+
+        <div class="map-card reveal">
+          <div class="map-placeholder">
+            <span>📍</span>
+            <h3>Hôtel du Doeru</h3>
+            <p>25, Avenue de la Corniche<br>Brazzaville, République du Congo</p>
+            <a class="btn btn-outline dark-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=25+Avenue+de+la+Corniche+Brazzaville+Congo">Ouvrir dans Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="hotel-mascot" aria-label="Assistant de réservation">
+    <div class="mascot-bubble">Réservez votre séjour !</div>
+    <div class="hotel-mini-figure" aria-hidden="true">
+      <div class="mini-building">
+        <div class="roof"></div>
+        <div class="tower tower-left"></div>
+        <div class="tower tower-right"></div>
+        <div class="windows">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="door"></div>
+      </div>
+    </div>
+    <a class="mascot-cta" href="#reservation">Réserver</a>
+  </div>
+
+  <a class="floating-whatsapp" href="https://wa.me/242065269213" target="_blank" rel="noopener" aria-label="Contacter l'hôtel sur WhatsApp">WA</a>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>HÔTEL DU DOERU</strong><p>★★★★ • Brazzaville</p></div>
+      <div><p>Wi-Fi gratuit • Réception 24h/24</p></div>
+      <div><p>© <span id="year"></span> Hôtel du Doeru. Tous droits réservés.</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
